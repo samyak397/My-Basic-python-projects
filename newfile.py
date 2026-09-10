@@ -1,11 +1,19 @@
-Income = float(input("Write your Income"))
-Rent= float(input("Write your Rent"))
-Groceries=float(input("Write your groceries expense"))
-Remaining_money=float(input("Side expenses"))
+Health=input("Write your daily health problem name ")
 
-print("Total expense is" ,Rent+Groceries+Remaining_money)
+if Health=="Cough":
+ print("Dextromethorphan (for dry coughs)  Ambroxol or Guaifenesin (for wet/chesty coughs")
+ 
+elif Health=="Headache":
+ print("Paracetamol (Acetaminophen)  Ibuprofen")
+ 
+elif Health=="Acid reflux":
+  print("Omeprazole or Pantoprazole  Antacid combinations (like aluminum/magnesium hydroxide)")
+  
+elif Health=="Allergies":
+    print("Cetirizine  Loratadine")
+    
+elif Health=="Sore Throat":
+     print("Amylmetacresol / Dichlorobenzyl alcohol (Medicated lozenges)  Warm salt water (home remedy")
+ 
+  
 
-print("Remain after rent" , Income-Rent)
-print("Remain after Groceries" , Income-Groceries)
-print("Remain after Side expenses" , Income- Remaining_money)
-print("Remaining money" , Income-Rent-Groceries-Remaining_money)
